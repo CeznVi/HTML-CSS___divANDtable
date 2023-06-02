@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+
+.TableContainer{
+    background-image: url("../img/Task_2.png");
+    background-position: -82px -43px;
+    background-repeat: no-repeat;
+    width: 888px;
+    height: 521px;
+}
+
+.PriceTable{
+    border-collapse: collapse;
+}
+
+.ColumnHeader{
+    background-color: #9edb23;
+    height: 55px;
+    width: 132px;
+    border: 1px solid black;
+}
+
+.ColumnHeader:first-child
+{
+    background-color: transparent;
+    width: 144px;
+}
+
+.ColumnHeader:nth-child(3)
+{
+    width: 138px;
+}
+
+.ColumnHeader:nth-child(4)
+{
+    width: 141px;
+}
+
+.ColumnHeader:nth-child(4)
+{
+    width: 142px;
+}
+
+.RowHeader{
+    background-color: #9edb21;
+}
+
+.PriceTable tr:nth-child(8){
+    background-color: transparent;
+}
+
+.PriceTable tr:nth-child(8) th{
+    background-color: transparent;
+}
+
+
+
+.PriceTable tr{
+    height: 48px;
+}
+
+.PriceTable tr:nth-child(6){
+    height: 62px;
+}
+
+.PriceTable tr:nth-child(7){
+    height: 62px;
+}
+
+.PriceTable th{
+    border: 1px solid #f7faf8;
+}
+
+.PriceTable td{
+    border: 1px solid #f7faf8;
+}
