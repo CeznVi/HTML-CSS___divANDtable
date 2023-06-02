@@ -1,0 +1,60 @@
+
+.palete {
+    width: 1240px;
+    height: 900px; 
+    margin: 15px auto;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.little{
+    float: left;
+    background-color: rgb(68, 0, 255);
+    width: 200px;
+    height: 200px;
+
+}
+
+.SquareWithoutBG{
+    float: left;
+    width: 400px;
+    height: 405px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.SquareWithoutBG .little {
+    height: 195px;
+    width: 195px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.SquareWithoutBG .little:nth-child(2) {
+    margin-left: 0px;
+    margin-right: 0px;
+    float: right;
+
+}
+
+.Square{
+    float: left;
+    background-color: rgb(219, 32, 32);
+    width: 400px;
+    height: 405px;
+    margin-right: 10px;
+}
+
+.ReactangleTwoRight{
+    float: left;
+    background-color: green;
+    width: 400px;
+    height: 200px;
+}
+
+.ReactangleTwoDown{
+    float: right;
+    background-color: blueviolet;
+    width: 195px;
+    height: 400px;
+}
