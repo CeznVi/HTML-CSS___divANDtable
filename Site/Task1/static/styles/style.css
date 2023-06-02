@@ -1,10 +1,10 @@
 
 .palete {
-    width: 1240px;
-    height: 900px; 
+    width: 1230px;
+    height: 810px; 
     margin: 15px auto;
     border: 1px solid black;
-    padding: 15px;
+    padding: 15px 5px 15px 15px;
 }
 
 .little{
@@ -12,14 +12,14 @@
     background-color: rgb(68, 0, 255);
     width: 200px;
     height: 200px;
-
 }
 
 .SquareWithoutBG{
     float: left;
     width: 400px;
-    height: 405px;
+    height: 400px;
     margin-right: 10px;
+    margin-bottom: 10px;
     background-color: black;
 }
 
@@ -27,21 +27,24 @@
     height: 195px;
     width: 195px;
     margin-right: 5px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .SquareWithoutBG .little:nth-child(2) {
+    float: right;
     margin-left: 0px;
     margin-right: 0px;
-    float: right;
+}
 
+.SquareWithoutBG .little:nth-child(3) {
+    margin-top: 10px;
 }
 
 .Square{
     float: left;
     background-color: rgb(219, 32, 32);
     width: 400px;
-    height: 405px;
+    height: 400px;
     margin-right: 10px;
 }
 
@@ -49,7 +52,8 @@
     float: left;
     background-color: green;
     width: 400px;
-    height: 200px;
+    height: 195px;
+    margin-top: 10px;
 }
 
 .ReactangleTwoDown{
@@ -58,3 +62,9 @@
     width: 195px;
     height: 400px;
 }
+
+.SquareWithoutBG .ReactangleTwoRight:nth-child(1){
+    margin-top: 0px;
+}
+
+
