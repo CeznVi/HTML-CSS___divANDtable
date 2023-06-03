@@ -17,15 +17,16 @@ body{
 
 /* Все заголовки столбиков*/
 .ColumnHeader{
+    height: 55px;
+    width: 132px;
     background-color: #9edb23;
     border-radius: 4px 4px 0px 0px;
     font-family: 'Geologica', sans-serif;
     font-size: 16px;
     color: #f8fcee;
-    text-shadow: -1px 1px 3px #ffffd9;
-    height: 55px;
-    width: 132px;
-    vertical-align: center;
+    text-shadow: -1px 1px 3px #5a5a49;
+    
+
 }
 
 .ColumnHeader:first-child
