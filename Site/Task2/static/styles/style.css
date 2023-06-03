@@ -14,12 +14,17 @@ body{
     border-collapse: collapse;
 }
 
+/* Все заголовки столбиков*/
 .ColumnHeader{
     background-color: #9edb23;
+    border-radius: 4px 4px 0px 0px;
+    font-family: 'Geologica', sans-serif;
+    font-size: 16px;
+    color: #f8fcee;
+    text-shadow: -1px 1px 3px #ffffd9;
     height: 55px;
     width: 132px;
-    border: 1px solid black;
-
+    vertical-align: center;
 }
 
 .ColumnHeader:first-child
@@ -44,6 +49,7 @@ body{
 }
 
 .RowHeader{
+    border-radius: 4px 0px 0px 4px;
     background-color: #9edb21;
 }
 
@@ -54,8 +60,6 @@ body{
 .PriceTable tr:nth-child(8) th{
     background-color: transparent;
 }
-
-
 
 /* Все заголовки строк кроме первого и последнего */
 .PriceTable tr:not(:first-child):not(:last-child) th{
@@ -94,4 +98,11 @@ body{
 
 .PriceTable td{
     border: 1px solid #f7faf8;
+    background-color: #dff2ca;
+    box-shadow: inset 0px 0px 8px 0px #e9f0e0;
+    text-align: center;
+    font-family: 'Geologica', sans-serif;
+    font-size: 16px;
+    color: #637459;
+    text-shadow: -1px 0px 2px #A9C0BF;
 }
