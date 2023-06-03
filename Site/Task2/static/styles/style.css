@@ -1,16 +1,17 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 
 .TableContainer{
-    background-image: url("../img/Task_2.png");
+    /* background-image: url("../img/Task_2.png");
     background-position: -82px -43px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     width: 888px;
     height: 521px;
 }
 
 .PriceTable{
+    border: none;
     border-collapse: collapse;
 }
 
@@ -105,4 +106,24 @@ body{
     font-size: 16px;
     color: #637459;
     text-shadow: -1px 0px 2px #A9C0BF;
+}
+
+/* Два ряда от низа с галочками */
+.PriceTable tr:nth-child(n+6) td{
+    color: #a1cd1e;
+    text-shadow: -1px 0px 2px #A9C0BF;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Последний ряд с ценой */
+.PriceTable tr:last-child td{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    font-family: 'Geologica', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(140,146,122,0.79);
 }
